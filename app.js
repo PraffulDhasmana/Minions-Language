@@ -19,12 +19,19 @@
 
 // clickHandler is call back
 
+//exercise
+// document.querySelector("textarea")
+// .btn-primary
+// #input-btn
+// "input[name='translator']"
+
 var btnTranslate = document.querySelector("#btn-translate")
 var txtInput = document.querySelector("#txt-input");
+var outPutDiv = document.querySelector("#output");
+
+outPutDiv.innerText = "Prafful"
 
 console.log(txtInput);
-
-
 
 function clickHandler() 
     {
@@ -34,4 +41,6 @@ function clickHandler()
     };
 
     btnTranslate.addEventListener("click", clickHandler)
+
+
 
