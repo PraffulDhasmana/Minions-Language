@@ -29,14 +29,13 @@ var btnTranslate = document.querySelector("#btn-translate")
 var txtInput = document.querySelector("#txt-input");
 var outPutDiv = document.querySelector("#output");
 
-outPutDiv.innerText = "Prafful"
-
-console.log(txtInput);
 
 function clickHandler() 
+
+
+
     {
-        console.log("Clicked");
-        console.log("Input " , txtInput.value);
+        outPutDiv.innerText = "Traslation : " + txtInput.value ;
         
     };
 
